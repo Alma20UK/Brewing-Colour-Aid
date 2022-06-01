@@ -1,0 +1,99 @@
+body {
+    background-color: #f8f4b4;
+    margin-top: 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 0.2s;
+}
+
+h1 {
+    position: relative;
+    border: 5px solid black;
+    box-shadow: 3px 3px 3px grey;
+    background-color: #F0F8FF;
+    text-shadow: 2px 2px 2px grey;
+    padding: 10px;
+    font-size: 5vw;
+    color: black;
+    font-family: 'Inconsolata', monospace;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.header {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 32%;
+}
+
+.beerGlass {
+    position: absolute;
+    top: 40.5%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    size: 160%;
+}
+
+.colourSlider {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input {
+    width: 20vw;
+
+}
+
+.SRM {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+h2 {
+    position: relative;
+    border: 3px solid black;
+    box-shadow: 3px 3px 3px grey;
+    background-color: #F0F8FF;
+    text-shadow: 2px 2px 2px grey;
+    padding: 10px;
+    font-size: 2vw;
+    color: black;
+    font-family: 'Inconsolata', monospace;
+    white-space: nowrap;
+    text-align: center;
+}
+
+/* Styling for the scroll bar
+
+input[type="range"]::-webkit-slider-thumb {
+     -webkit-appearance: none;
+    background-color: black;
+    opacity: 1;
+    width: 10px;
+    height: 26px;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
+    background-color: grey;
+}
+
+input[type="range"]::-moz-range-track {
+    -webkit-appearance: none;
+    background-color: red;
+}
+
+input[type="range"]::-ms-track {
+    -webkit-appearance: none;
+    background-color: red;
+}
+*/
